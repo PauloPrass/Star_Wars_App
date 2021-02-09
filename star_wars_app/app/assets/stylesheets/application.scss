@@ -1,0 +1,26 @@
+@import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.div_black{
+    background-color: #343a40;
+    color: #FFF !important;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container_title{
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+}
+
+.div_title{
+    width: 50%;
+    display: inline-flex;
+    justify-content: end;
+}

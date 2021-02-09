@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<div class="container">
+<h1><%= @person.name %>.</h1>
+  <div class="div_black">
+  <p>
+    Olá! Eu sou <%= @person.name %>. Sou um <%= @person.get_species %>, peso <%= @person.mass %>, 
+    nasci em <%= @person.planets.first.name %> no ano de <%= @person.birthyear %> e já pilotei <%= @person.get_starships %>
+  </p>
+
+  </div>
+  <br>
+  <button type="button" class="btn btn-dark">
+    <%= link_to 'Voltar', home_path %>
+  </button>
+<div>

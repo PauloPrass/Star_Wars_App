@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  mass: MyString
+  birthyear: MyString
+  starships: one
+  spicies: one
+  planets: one
+
+two:
+  name: MyString
+  mass: MyString
+  birthyear: MyString
+  starships: two
+  spicies: two
+  planets: two
